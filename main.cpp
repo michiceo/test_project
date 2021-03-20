@@ -5,6 +5,8 @@
 int
 main(int argc, char **argv)
 {
+  MyClass m;
+
   std::cout << "Hello, world!" << std::endl;
   std::cout << "This is a newly added line." << std::endl;
 
