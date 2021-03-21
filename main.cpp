@@ -1,4 +1,4 @@
-#include <iostream>
+#include <string>
 
 #include "subdirectory/my_class.hpp"
 
@@ -7,8 +7,6 @@ main(int argc, char **argv)
 {
   MyClass m;
 
-  std::cout << "Hello, world!" << std::endl;
-  std::cout << "This is a newly added line." << std::endl;
-
+  std::string example{"example string"};
   return 0;
 }
